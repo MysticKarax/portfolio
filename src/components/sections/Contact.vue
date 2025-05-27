@@ -57,7 +57,7 @@
         <!-- CTA button -->
         <div class="mb-12">
           <a
-            href="mailto:jordan.empresa@outlook.com"
+            href="mailto:jordidev@proton.me"
             class="inline-flex items-center gap-3 px-8 py-4 bg-accent-primary text-white hover:bg-accent-secondary hover:text-white rounded-full transition-all duration-300 shadow-lg shadow-accent-primary/25 hover:shadow-accent-secondary/30 text-lg font-medium transform hover:-translate-y-1"
           >
             <span>Email Me</span>

@@ -60,7 +60,7 @@
       <div class="flex flex-col">
         <h3 class="text-text-primary font-semibold text-lg mb-4">Contact</h3>
         <a
-          href="mailto:jordan.empresa@outlook.com"
+          href="mailto:jordidev@proton.me"
           class="text-accent-primary hover:text-white transition-colors duration-200 mb-2 inline-flex items-center"
         >
           <svg

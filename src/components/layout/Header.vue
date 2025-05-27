@@ -71,7 +71,7 @@
             </a>
 
             <a
-              href="mailto:jordan.empresa@outlook.com"
+              href="mailto:jordidev@proton.me"
               class="text-accent-tertiary hover:text-accent-primary transition-colors duration-200"
               aria-label="Email"
               target="_blank"
@@ -90,7 +90,7 @@
         <!-- Mobile Menu Button (visible only on mobile) -->
         <button
           @click="toggleMobileMenu"
-          class="md:hidden text-accent-tertiary hover:text-text-primary relative h-6 w-6"
+          class="md:hidden text-text-primary hover:text-accent-primary relative h-6 w-6"
           aria-label="Toggle menu"
         >
           <transition name="icon-fade" mode="out-in">
@@ -104,7 +104,7 @@
       <transition name="menu">
         <div
           v-if="isMobileMenuOpen"
-          class="md:hidden fixed inset-x-0 top-[4.5rem] bg-background/90 backdrop-blur-sm dark:bg-background-alt/90"
+          class="md:hidden fixed inset-x-0 top-[4.5rem] dark:bg-background-alt/95 text-center"
         >
           <div class="container mx-auto px-4">
             <div class="py-4 border-t border-accent-tertiary/20">
@@ -117,8 +117,8 @@
                   :style="{ '--delay': index * 50 + 'ms' }"
                   :class="
                     activeLink === navItem.path
-                      ? 'bg-nav-active text-text-primary font-medium'
-                      : 'text-accent-tertiary hover:text-text-primary'
+                      ? 'bg-nav-active text-accent-primary font-medium'
+                      : 'text-text-primary hover:text-text-primary'
                   "
                   @click.prevent="
                     setActiveLink(navItem.path);
@@ -129,7 +129,7 @@
                 </a>
               </div>
 
-              <div class="mt-6 pt-4 border-t border-accent-tertiary/20">
+              <div class="mt-6 pt-4 border-t border-accent-tertiary/20 grid justify-center">
                 <!-- Mobile Availability Status -->
                 <div class="flex items-center space-x-2 px-3 py-2 menu-item" style="--delay: 150ms">
                   <span class="h-2.5 w-2.5 rounded-full bg-available"></span>
@@ -144,7 +144,7 @@
                     href="https://www.linkedin.com/in/jordidev-mx"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="text-accent-tertiary hover:text-accent-primary transition-colors duration-200"
+                    class="text-text-primary hover:text-accent-primary transition-colors duration-200"
                     aria-label="LinkedIn"
                   >
                     <!-- LinkedIn Icon -->
@@ -158,7 +158,7 @@
                     href="https://github.com/MysticKarax"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="text-accent-tertiary hover:text-accent-primary transition-colors duration-200"
+                    class="text-text-primary hover:text-accent-primary transition-colors duration-200"
                     aria-label="GitHub"
                   >
                     <!-- GitHub Icon -->
