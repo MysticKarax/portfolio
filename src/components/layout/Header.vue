@@ -104,7 +104,7 @@
       <transition name="menu">
         <div
           v-if="isMobileMenuOpen"
-          class="md:hidden fixed inset-x-0 top-[4.5rem] dark:bg-background-alt/95 text-center"
+          class="md:hidden fixed inset-x-0 top-[4.5rem] bg-black text-center"
         >
           <div class="container mx-auto px-4">
             <div class="py-4 border-t border-accent-tertiary/20">
@@ -179,12 +179,8 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
-import { useDarkMode } from '@/composables/useDarkMode';
-
-// Initialize dark mode
-const { isDarkMode, toggleDarkMode } = useDarkMode();
 
 // Nav items
 const navItems = [
