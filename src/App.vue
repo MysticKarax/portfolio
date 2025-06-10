@@ -33,6 +33,9 @@
         <Footer />
       </div>
     </footer>
+
+    <!-- Chatbot Component -->
+    <ChatBot key="chatbot" />
   </div>
 </template>
 
@@ -42,6 +45,7 @@ import { onMounted } from 'vue';
 // Layout components
 import Header from './components/layout/Header.vue';
 import Footer from './components/layout/Footer.vue';
+import ChatBot from './components/ui/ChatBot.vue';
 
 // Section components
 import Hero from './components/sections/Hero.vue';
