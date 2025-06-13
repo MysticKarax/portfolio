@@ -174,7 +174,7 @@ const sendMessage = async () => {
 
   try {
     // Use environment variable for API URL, fallback to localhost for development
-    const apiUrl = import.meta.env.production.VITE_CHATBOT_API_URL || 'http://127.0.0.1:5000';
+    const apiUrl = import.meta.env.VITE_CHATBOT_API_URL || 'http://127.0.0.1:5000';
     const response = await fetch(`${apiUrl}/predict`, {
       method: 'POST',
       headers: {
