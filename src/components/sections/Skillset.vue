@@ -1,5 +1,5 @@
 <template>
-  <section id="skillset" class="py-16 md:py-20 lg:py-24 relative overflow-hidden">
+  <section id="skillset" class="py-16 md:py-20 lg:py-24 relative overflow-hidden bg-background-alt">
     <!-- Background elements -->
     <div class="absolute inset-0 z-0 opacity-5">
       <div

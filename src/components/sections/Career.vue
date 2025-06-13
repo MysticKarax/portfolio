@@ -1,5 +1,5 @@
 <template>
-  <section id="career" class="py-20 bg-background-alt/30 dark:bg-background/50">
+  <section id="career" class="py-20 bg-background">
     <div class="container mx-auto px-4">
       <!-- Section header -->
       <div class="text-center mb-16 max-w-3xl mx-auto">

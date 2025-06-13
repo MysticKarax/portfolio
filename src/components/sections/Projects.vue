@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="projects"
-    class="py-16 md:py-24 bg-background-alt/30 dark:bg-background/50 relative overflow-hidden"
-  >
+  <section id="projects" class="py-16 md:py-24 bg-background-alt relative overflow-hidden">
     <!-- Background elements -->
     <div class="absolute inset-0 z-0 opacity-5">
       <div
@@ -216,7 +213,7 @@
 
         <!-- Project 4: Travel Destinations SPA -->
         <div
-          class="project-card group relative overflow-hidden rounded-xl shadow-lg bg-background-alt dark:bg-background/70 border border-accent-tertiary/10 transition-all duration-300 hover:shadow-xl hover:shadow-accent-primary/10 hover:border-accent-primary/20  animate-on-scroll"
+          class="project-card group relative overflow-hidden rounded-xl shadow-lg bg-background-alt dark:bg-background/70 border border-accent-tertiary/10 transition-all duration-300 hover:shadow-xl hover:shadow-accent-primary/10 hover:border-accent-primary/20 animate-on-scroll"
           data-animation="fade-up"
           data-delay="500"
         >
@@ -268,7 +265,7 @@
 
         <!-- Project 5: VoltNest - EV Charging Platform -->
         <div
-          class="project-card group relative overflow-hidden rounded-xl shadow-lg bg-background-alt dark:bg-background/70 border border-accent-tertiary/10 transition-all duration-300 hover:shadow-xl hover:shadow-accent-primary/10 hover:border-accent-primary/20  animate-on-scroll"
+          class="project-card group relative overflow-hidden rounded-xl shadow-lg bg-background-alt dark:bg-background/70 border border-accent-tertiary/10 transition-all duration-300 hover:shadow-xl hover:shadow-accent-primary/10 hover:border-accent-primary/20 animate-on-scroll"
           data-animation="fade-up"
           data-delay="600"
         >
@@ -331,7 +328,7 @@
 
         <!-- Project 6: Silver Wolf Dice Game -->
         <div
-          class="project-card group relative overflow-hidden rounded-xl shadow-lg bg-background-alt dark:bg-background/70 border border-accent-tertiary/10 transition-all duration-300 hover:shadow-xl hover:shadow-accent-primary/10 hover:border-accent-primary/20  animate-on-scroll"
+          class="project-card group relative overflow-hidden rounded-xl shadow-lg bg-background-alt dark:bg-background/70 border border-accent-tertiary/10 transition-all duration-300 hover:shadow-xl hover:shadow-accent-primary/10 hover:border-accent-primary/20 animate-on-scroll"
           data-animation="fade-up"
           data-delay="700"
         >
