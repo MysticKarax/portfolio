@@ -11,14 +11,10 @@
         class="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-4 rounded-t-lg flex items-center justify-between"
       >
         <div class="flex items-center">
-          <img
-            src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png"
-            alt="Sam"
-            class="w-8 h-8 rounded-full mr-3"
-          />
+          <img src="/chat.png" alt="Jordan" class="w-8 h-8 rounded-full mr-3" />
           <div>
-            <h4 class="font-semibold">Chat Support</h4>
-            <p class="text-sm opacity-90">Hi! My name is Sam. How can I help you?</p>
+            <h4 class="font-semibold">Chatbot</h4>
+            <p class="text-sm opacity-90">Jordan</p>
           </div>
         </div>
         <button
@@ -148,7 +144,7 @@ const toggleChat = () => {
     // Add initial greeting
     messages.value.push({
       sender: 'bot',
-      text: "Hello! I'm Sam, your AI assistant. How can I help you today?",
+      text: "Hello! I'm Jordan's Chatbot. How can I help you today?",
     });
   }
 };

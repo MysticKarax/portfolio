@@ -1,6 +1,6 @@
 @echo off
 echo Starting Chatbot Backend...
-start cmd /k "cd /d C:\dev\python\proyectos\chatbot-deployment && python app.py"
+start cmd /k "cd /d C:\dev\python\proyectos\backend-chatbot && python app.py"
 
 echo Waiting for backend to start...
 timeout /t 5 /nobreak > nul
