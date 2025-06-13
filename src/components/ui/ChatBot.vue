@@ -13,7 +13,7 @@
         <div class="flex items-center">
           <img src="/chat.png" alt="Jordan" class="w-8 h-8 rounded-full mr-3" />
           <div>
-            <h4 class="font-semibold">Chatbot</h4>
+            <h4 class="font-semibold">Chatbot (Work in progress...)</h4>
             <p class="text-sm opacity-90">Jordan</p>
           </div>
         </div>
