@@ -68,6 +68,9 @@
                 style="animation-delay: 300ms"
               ></div>
             </div>
+            <div v-if="isBackendWarmingUp" class="text-xs text-gray-500 mt-2">
+              Backend is turning on, please wait. This may take up to 60 seconds.
+            </div>
           </div>
         </div>
       </div>
@@ -137,6 +140,7 @@ const messages = ref([]);
 const currentMessage = ref('');
 const isLoading = ref(false);
 const messagesContainer = ref(null);
+const isBackendWarmingUp = ref(false);
 
 const toggleChat = () => {
   isChatOpen.value = !isChatOpen.value;
@@ -175,6 +179,12 @@ const sendMessage = async () => {
   try {
     // Use environment variable for API URL, fallback to localhost for development
     const apiUrl = import.meta.env.VITE_CHATBOT_API_URL || 'http://127.0.0.1:5000';
+
+    // Start timer to show "backend warming up" message after 10 seconds
+    const warmupTimer = setTimeout(() => {
+      isBackendWarmingUp.value = true;
+    }, 3000); // Show message after 3 seconds
+
     const response = await fetch(`${apiUrl}/predict`, {
       method: 'POST',
       headers: {
@@ -183,9 +193,11 @@ const sendMessage = async () => {
       body: JSON.stringify({ message: userMessage }),
     });
 
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
+    // Clear the timer since we got a response
+    clearTimeout(warmupTimer);
+    isBackendWarmingUp.value = false;
+
+    if (!response.ok) throw new Error('Network response was not ok');
 
     const data = await response.json();
 

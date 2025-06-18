@@ -3,7 +3,7 @@
     <!-- Footer content with grid layout -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 py-4">
       <!-- Logo and About column -->
-      <div class="flex flex-col">
+      <div class="flex flex-col items-center md:items-start">
         <div class="flex items-center mb-4">
           <img src="/logo.svg" alt="Jordi Logo" class="h-10 w-auto" />
         </div>
@@ -42,7 +42,7 @@
       </div>
 
       <!-- Quick Links column -->
-      <div class="flex flex-col">
+      <div class="flex flex-col items-center md:items-start">
         <h3 class="text-text-primary font-semibold text-lg mb-4">Quick Links</h3>
         <nav class="flex flex-col space-y-2">
           <a
@@ -57,7 +57,7 @@
       </div>
 
       <!-- Contact column -->
-      <div class="flex flex-col">
+      <div class="flex flex-col items-center md:items-start">
         <h3 class="text-text-primary font-semibold text-lg mb-4">Contact</h3>
         <a
           href="mailto:jordidev@proton.me"
@@ -141,7 +141,3 @@ const navItems = [
   { key: 'contact', path: '#contact', label: 'Contact' },
 ];
 </script>
-
-<style scoped>
-/* Optional additional styling */
-</style>
