@@ -6,7 +6,7 @@
 
 Welcome to my personal portfolio website built with Vue.js 3! This portfolio showcases my journey as a web developer, featuring my professional experience, projects, and philosophy around creating human-centered digital experiences.
 
-**Live Portfolio:** [\[Your Live URL Here\]](https://jordidevmx-portfolio.netlify.app/)
+[\[**Live Portfolio**\]](https://jordidevmx-portfolio.netlify.app/)
 
 ## 📸 Portfolio Preview
 
